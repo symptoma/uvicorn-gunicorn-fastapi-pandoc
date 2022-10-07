@@ -2,7 +2,7 @@
 
 Based on [tiangolo/uvicorn-gunicorn-fastapi:python3.8](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker).
 
-Extended with pandoc and wkhtmltopd 0.12.5 (with patched qt) and dependencies.
+Extended with pandoc and wkhtmltopdf 0.12.5 (with patched qt) and dependencies.
 
 Published on the Docker Hub: https://hub.docker.com/r/symptoma/uvicorn-gunicorn-fastapi-pandoc
 
