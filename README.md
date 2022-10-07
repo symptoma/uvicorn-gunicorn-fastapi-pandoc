@@ -4,6 +4,8 @@ Based on [tiangolo/uvicorn-gunicorn-fastapi:python3.8](https://github.com/tiango
 
 Extended with pandoc and wkhtmltopd 0.12.5 (with patched qt) and dependencies.
 
+Published on the Docker Hub: https://hub.docker.com/r/symptoma/uvicorn-gunicorn-fastapi-pandoc
+
 ## Version
 
 Current version of the base image is **0.6.0**: https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/releases/tag/0.6.0
