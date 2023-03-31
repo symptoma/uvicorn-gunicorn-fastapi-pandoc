@@ -8,7 +8,7 @@ Published on the Docker Hub: https://hub.docker.com/r/symptoma/uvicorn-gunicorn-
 
 ## Version
 
-Current version of the base image is **0.6.0**: https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/releases/tag/0.6.0
+Current version of the base image is **0.7.0**: https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/releases/tag/0.7.0
 
 ## Build
 
@@ -18,11 +18,11 @@ docker build -t symptoma/uvicorn-gunicorn-fastapi-pandoc .
 
 First, commit your change to Git. 
 
-`git commit -m "Update Base Image to 0.6.0"`
+`git commit -m "Update Base Image to 0.7.0"`
 
 Then tag it. 
 
-`git tag -a 0.6.0 -m 'Release 0.6.0'`
+`git tag -a 0.7.0 -m 'Release 0.7.0'`
 
 Then push it to Github.
 
@@ -31,7 +31,7 @@ Then push it to Github.
 Publishing manually works like this (after `docker login`):
 
 ```
-docker tag f1aa123a520f symptoma/uvicorn-gunicorn-fastapi-pandoc:0.6.0
-docker push symptoma/uvicorn-gunicorn-fastapi-pandoc:0.6.0
+docker tag f1aa123a520f symptoma/uvicorn-gunicorn-fastapi-pandoc:0.7.0
+docker push symptoma/uvicorn-gunicorn-fastapi-pandoc:0.7.0
 docker push symptoma/uvicorn-gunicorn-fastapi-pandoc:latest
 ```
