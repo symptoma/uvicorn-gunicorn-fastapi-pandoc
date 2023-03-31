@@ -1,6 +1,6 @@
 # Dockerfile to build an image for uvicorn-gunicorn-fastapi extended with pandoc (and wkhtmltopdf)
 
-Based on [tiangolo/uvicorn-gunicorn-fastapi:python3.8](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker).
+Based on [tiangolo/uvicorn-gunicorn-fastapi:python3.10](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker).
 
 Extended with pandoc and wkhtmltopdf 0.12.5 (with patched qt) and dependencies.
 
