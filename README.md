@@ -35,3 +35,14 @@ docker tag f1aa123a520f symptoma/uvicorn-gunicorn-fastapi-pandoc:0.7.0
 docker push symptoma/uvicorn-gunicorn-fastapi-pandoc:0.7.0
 docker push symptoma/uvicorn-gunicorn-fastapi-pandoc:latest
 ```
+
+## Multi Architecture Docker Build
+
+Prepare the buildx context and use it:
+
+* `BUILDER_NAME=$(docker buildx create) && docker buildx use $BUILDER_NAME`
+
+Then build for multiple platforms:
+
+* `docker buildx build --push --platform linux/arm64,linux/amd64 --tag symptoma/uvicorn-gunicorn-fastapi-pandoc:0.7.0 .`
+* `docker buildx build --push --platform linux/arm64,linux/amd64 --tag symptoma/uvicorn-gunicorn-fastapi-pandoc:latest .`
