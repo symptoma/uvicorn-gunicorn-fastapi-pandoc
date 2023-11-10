@@ -31,3 +31,10 @@ RUN apt-get update && apt-get install -y \
     # Cleanup
     && rm *.deb \
     && rm -rf /var/lib/apt/lists/*
+
+# Install build requirements for python-ldap
+RUN apt-get update && apt-get install -y \
+    libldap2-dev \
+    ldap-utils \
+    libsasl2-dev \
+    && rm -rf /var/lib/apt/lists/*
