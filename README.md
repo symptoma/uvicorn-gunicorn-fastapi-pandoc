@@ -11,8 +11,9 @@ Published on the Docker Hub: https://hub.docker.com/r/symptoma/uvicorn-gunicorn-
 Current version of the base image is **0.7.0**: https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/releases/tag/0.7.0
 
 ## Build
-
+```
 docker build -t symptoma/uvicorn-gunicorn-fastapi-pandoc .
+```
 
 ## Publish
 
