@@ -8,7 +8,7 @@ Published on the Docker Hub: https://hub.docker.com/r/symptoma/uvicorn-gunicorn-
 
 ## Version
 
-Current version of the base image is **0.7.0**: https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/releases/tag/0.7.0
+Current version of the base image is [**0.7.0**]((https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/releases/tag/0.7.1)) and the one of this image is [**0.7.1**](https://github.com/symptoma/uvicorn-gunicorn-fastapi-pandoc/tags).
 
 ## Build
 ```
@@ -32,7 +32,7 @@ Then push it to Github.
 Publishing manually works like this (after `docker login`):
 
 ```
-docker tag f1aa123a520f symptoma/uvicorn-gunicorn-fastapi-pandoc:0.7.0
+docker tag symptoma/uvicorn-gunicorn-fastapi-pandoc:latest symptoma/uvicorn-gunicorn-fastapi-pandoc:0.7.0
 docker push symptoma/uvicorn-gunicorn-fastapi-pandoc:0.7.0
 docker push symptoma/uvicorn-gunicorn-fastapi-pandoc:latest
 ```
